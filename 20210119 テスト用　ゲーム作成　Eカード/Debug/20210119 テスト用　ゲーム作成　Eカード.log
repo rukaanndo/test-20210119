@@ -1,4 +1,2 @@
-﻿  20210119 テスト用　ゲーム作成　Eカード.cpp
-C:\Users\81904\source\repos\20210119 テスト用　ゲーム作成　Eカード\20210119 テスト用　ゲーム作成　Eカード\20210119 テスト用　ゲーム作成　Eカード.cpp(36): warning C4715: 'judge': 値を返さないコントロール パスがあります。
-MSVCRTD.lib(exe_winmain.obj) : error LNK2019: 未解決の外部シンボル _WinMain@16 が関数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) で参照されました
+﻿MSVCRTD.lib(exe_winmain.obj) : error LNK2019: 未解決の外部シンボル _WinMain@16 が関数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) で参照されました
 C:\Users\81904\source\repos\20210119 テスト用　ゲーム作成　Eカード\Debug\20210119 テスト用　ゲーム作成　Eカード.exe : fatal error LNK1120: 1 件の未解決の外部参照
