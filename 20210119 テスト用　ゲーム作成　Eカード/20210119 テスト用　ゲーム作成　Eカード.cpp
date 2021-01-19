@@ -1,4 +1,5 @@
-﻿#include<iostream>
+﻿
+#include<iostream>
 #include <stdio.h>
 using namespace std;
 
@@ -48,15 +49,15 @@ int main()
 	next = getchar();
 	cout << "皇帝や奴隷のようなスペシャルカードは一度しか出せません" << endl;
 	next = getchar();
-	cout << "皇帝のデッキを選ぶと奴隷は選べませんし、奴隷のデッキでは皇帝を選ぶことは出来ません" << endl;
+	cout << "皇帝のデッキ(プレイヤー1)を選ぶと奴隷は選べませんし、奴隷のデッキ()では皇帝を選ぶことは出来ません" << endl;
 	next = getchar();
 	cout << "ソレではデッキを決め勝負を開始してください。" << endl;
 	next = getchar();
 	while (true) {
 
-		cout << "プレイヤー1は何を出す？　0：皇帝　1：市民　2：奴隷　" << endl;
+		cout << "プレイヤー1は何を出す？　0：皇帝　1：市民　" << endl;
 		cin >> player1;
-		cout << "プレイヤー2は何を出す？　0：皇帝　1：市民　2：奴隷　" << endl;
+		cout << "プレイヤー2は何を出す？　1：市民　2：奴隷　" << endl;
 		cin >> player2;
 		if (player1 == 0) {
 			cout << "プレイヤー1は皇帝を出しました" << endl;
@@ -87,7 +88,7 @@ int main()
 		else
 		{
 			cout << "次の手をどうぞ" << endl;
-			cout << "市民がでた回数は" << draw + 1 << "回です" << endl;
+			cout << "残りのカード枚数は" << 4 - draw << "枚です" << endl;
 			++draw;
 			continue;
 		}
